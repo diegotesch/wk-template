@@ -53,6 +53,9 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "github-pages": {
+              "baseHref": "/wk-template/"
             }
           },
           "defaultConfiguration": "production"
