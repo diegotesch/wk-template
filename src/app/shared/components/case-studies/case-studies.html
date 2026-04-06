@@ -1,0 +1,16 @@
+<section class="cases" id="case-studies">
+  <h2>Estudos de Caso</h2>
+
+  @for (caseItem of cases; track caseItem.id) {
+  <div class="case">
+    <h3>Problema</h3>
+    <p>{{ caseItem.problem }}</p>
+
+    <h3>Solução</h3>
+    <p>{{ caseItem.solution }}</p>
+
+    <h3>Resultado</h3>
+    <p>{{ caseItem.result }}</p>
+  </div>
+  }
+</section>

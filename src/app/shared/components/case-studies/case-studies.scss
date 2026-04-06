@@ -1,0 +1,16 @@
+.cases {
+  background: var(--bg-light);
+}
+
+.case {
+  background: white;
+  padding: 32px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  margin-bottom: 24px;
+}
+
+.case h3 {
+  color: var(--secondary);
+  margin-top: 12px;
+}
