@@ -1,22 +1,32 @@
-<section class="cases section-gray" id="case-studies">
-  <h2>Estudos de Caso</h2>
+<section class="cases section-gray">
+  <div class="container">
 
-  @for (caseItem of cases; track caseItem.id) {
-  <div class="case">
-    <div class="case-grid">
-      <div>
-        <h4>Problema</h4>
-        <p>{{ caseItem.problem }}</p>
-      </div>
-      <div>
-        <h4>Solução</h4>
-        <p>{{ caseItem.solution }}</p>
-      </div>
-      <div>
-        <h4>Resultado</h4>
-        <p>{{ caseItem.result }}</p>
-      </div>
+    <div class="section-header">
+      <h2>Estudos de Caso</h2>
+      <p>Alguns exemplos de atuação técnica aplicada</p>
     </div>
+
+    @for (caseItem of cases; track caseItem.id) {
+      <div class="case-card">
+        <div class="case-step">
+          <span>Problema</span>
+          <p>{{ caseItem.problem }}</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="case-step">
+          <span>Solução</span>
+          <p>{{ caseItem.solution }}</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="case-step highlight">
+          <span>Resultado</span>
+          <p>{{ caseItem.result }}</p>
+        </div>
+      </div>
+    }
   </div>
-  }
 </section>

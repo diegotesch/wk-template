@@ -36,5 +36,19 @@ export class Projects {
       description: 'Serviço de inspeção técnica para avaliação de equipamentos industriais, identificando oportunidades de melhorias e assegurando o valor comercial dos ativos para compra, venda ou financiamento.',
       image: 'https://blog.ebaconline.com.br/blog/wp-content/uploads/2025/07/blog_cover_business_etapas_projecto.jpg'
     },
+    {
+      id: 5,
+      title: 'Gestão de Obras',
+      tag: 'Planejamento e Execução',
+      description: 'Gestão de obras civis com foco em planejamento estratégico, controle financeiro e acompanhamento técnico, visando maximizar resultados e assegurar sucesso comercial em empreendimentos de engenharia.',
+      image: 'https://blog.ebaconline.com.br/blog/wp-content/uploads/2025/07/blog_cover_business_etapas_projecto.jpg'
+    },
+    {
+      id: 6,
+      title: 'Perícia em Estruturas Metálicas',
+      tag: 'Laudo Estrutural',
+      description: 'Diagnóstico técnico e elaboração de laudo pericial em estruturas metálicas, garantindo a integridade, normatização e valor comercial de empreendimentos industriais e logísticos.',
+      image: 'https://blog.ebaconline.com.br/blog/wp-content/uploads/2025/07/blog_cover_business_etapas_projecto.jpg'
+    },
   ];
 }

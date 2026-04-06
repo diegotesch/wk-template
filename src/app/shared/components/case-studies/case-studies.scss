@@ -2,32 +2,50 @@
   background: var(--bg-light);
 }
 
-.case {
+.case-card {
+  display: flex;
+  align-items: stretch;
   background: white;
-  padding: 32px;
   border-radius: var(--radius);
   border: 1px solid var(--border);
   margin-bottom: 24px;
-}
+  overflow: hidden;
 
-.case-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-
-  div {
-    background: #f8fafc;
-    padding: 16px;
-    border-radius: 8px;
-
-    :last-child {
-      background: #ecfdf5;
-      border: 1px solid #10b981;
+  &:hover {
+      box-shadow: var(--shadow);
+      transform: translateY(-3px);
+      transition: 0.25s;
     }
-  }
 }
 
-.case h4 {
+.case-step {
+  flex: 1;
+  padding: 28px;
+}
+
+.case-step span {
+  font-size: 12px;
+  font-weight: 600;
   color: var(--secondary);
-  margin-bottom: 8px;
+  display: block;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.case-step p {
+  font-size: 14px;
+}
+
+.divider {
+  width: 1px;
+  background: var(--border);
+}
+
+.highlight {
+  background: #ecfdf5;
+}
+
+.highlight span {
+  color: #059669;
 }
