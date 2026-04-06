@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class Services {
   services = [
-    { id: 1, title: 'Perícias Técnicas', description: 'Análises detalhadas' },
+    { id: 1, title: 'Perícias Técnicas', description: 'Identificação técnica de falhas em embasamento pericial' },
     { id: 2, title: 'Laudos', description: 'Documentação técnica' },
     { id: 3, title: 'Consultoria', description: 'Suporte especializado' },
   ];

@@ -14,6 +14,12 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+
+  div {
+    background: #f8fafc;
+    padding: 16px;
+    border-radius: 8px;
+  }
 }
 
 .case h4 {

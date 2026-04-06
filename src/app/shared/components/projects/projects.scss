@@ -8,10 +8,28 @@
   background: white;
   border: 1px solid var(--border);
   transition: 0.3s;
+  position: relative;
 
   &:hover {
     transform: translateY(-8px);
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+
+    &::after {
+      opacity: 1;
+    }
+  }
+
+  &::after {
+    content: "Ver detalhes";
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 6px 10px;
+      border-radius: 6px;
+      opacity: 0;
+      transition: 0.3s;
   }
 }
 
