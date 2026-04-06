@@ -8,11 +8,29 @@ import { Component } from '@angular/core';
 })
 export class CaseStudies {
   cases = [
-    { id: 1, problem: 'Problema 1', solution: 'Solução 1', result: 'Resultado 1' },
-    { id: 2, problem: 'Problema 2', solution: 'Solução 2', result: 'Resultado 2' },
-    { id: 3, problem: 'Problema 3', solution: 'Solução 3', result: 'Resultado 3' },
-    { id: 4, problem: 'Problema 4', solution: 'Solução 4', result: 'Resultado 4' },
-    { id: 5, problem: 'Problema 5', solution: 'Solução 5', result: 'Resultado 5' },
-    { id: 6, problem: 'Problema 6', solution: 'Solução 6', result: 'Resultado 6' },
+    { 
+      id: 1, 
+      problem: 'Fissuras recorrentes em vigas de concreto em edifício residencial.', 
+      solution: 'Realização de inspeção técnica detalhada, análise estrutural e recomendação de reforço com fibra de carbono.', 
+      result: 'As fissuras foram eliminadas e a integridade estrutural restabelecida, evitando riscos futuros e valorizando o imóvel.' 
+    },
+    { 
+      id: 2, 
+      problem: 'Infiltração excessiva no subsolo de edifício comercial causando deterioração em paredes e instalações.', 
+      solution: 'Diagnóstico de falhas de impermeabilização seguido por projeto e execução de nova impermeabilização com sistema moderno.', 
+      result: 'Redução total das infiltrações, garantindo durabilidade às fundações e tornando o ambiente próprio para uso comercial.' 
+    },
+    { 
+      id: 3, 
+      problem: 'Irregularidade na execução de fundação detectada durante vistoria em obra pública.', 
+      solution: 'Avaliação técnica pericial, emissão de laudo técnico conclusivo e recomendação de medidas corretivas adequadas.', 
+      result: 'Correção das não conformidades, aprovação dos órgãos fiscalizadores e continuidade segura da obra.' 
+    },
+    { 
+      id: 4, 
+      problem: 'Degradação precoce da fachada em condomínio devido à utilização inadequada de materiais.', 
+      solution: 'Análise de desempenho dos materiais aplicados, indicação de produtos adequados e supervisão técnica da reforma.', 
+      result: 'Fachada revitalizada com materiais duráveis e adequados, elevando o valor de mercado do empreendimento.' 
+    },
   ];
 }

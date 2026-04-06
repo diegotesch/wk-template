@@ -19,6 +19,11 @@
     background: #f8fafc;
     padding: 16px;
     border-radius: 8px;
+
+    :last-child {
+      background: #ecfdf5;
+      border: 1px solid #10b981;
+    }
   }
 }
 

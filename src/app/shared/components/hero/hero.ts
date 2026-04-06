@@ -8,5 +8,5 @@ import { Component, Input } from '@angular/core';
 })
 export class Hero {
   @Input() title: string = 'Engenheiro Mecânico Especialista em Engenharia Legal';
-  @Input() subtitle: string = 'Soluções técnicas com precisão e credibilidade';
+  @Input() subtitle: string = 'Especialista em soluções técnicas para análise, perícia e validação de projetos';
 }

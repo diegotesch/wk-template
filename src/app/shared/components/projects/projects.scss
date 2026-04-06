@@ -7,7 +7,7 @@
   overflow: hidden;
   background: white;
   border: 1px solid var(--border);
-  transition: 0.3s;
+  transition: all 0.25s ease;
   position: relative;
 
   &:hover {
@@ -41,4 +41,10 @@
 
 .projects .content {
   padding: 20px;
+}
+
+.tag {
+  font-size: 12px;
+  color: var(--secondary);
+  font-weight: 600;
 }
