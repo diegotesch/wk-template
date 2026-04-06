@@ -1,16 +1,22 @@
-<section class="cases" id="case-studies">
+<section class="cases section-gray" id="case-studies">
   <h2>Estudos de Caso</h2>
 
   @for (caseItem of cases; track caseItem.id) {
   <div class="case">
-    <h3>Problema</h3>
-    <p>{{ caseItem.problem }}</p>
-
-    <h3>Solução</h3>
-    <p>{{ caseItem.solution }}</p>
-
-    <h3>Resultado</h3>
-    <p>{{ caseItem.result }}</p>
+    <div class="case-grid">
+      <div>
+        <h4>Problema</h4>
+        <p>{{ caseItem.problem }}</p>
+      </div>
+      <div>
+        <h4>Solução</h4>
+        <p>{{ caseItem.solution }}</p>
+      </div>
+      <div>
+        <h4>Resultado</h4>
+        <p>{{ caseItem.result }}</p>
+      </div>
+    </div>
   </div>
   }
 </section>

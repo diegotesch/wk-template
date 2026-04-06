@@ -22,3 +22,16 @@ section {
   display: grid;
   gap: 24px;
 }
+
+.section-light {
+  background: white;
+}
+
+.section-dark {
+  background: #0f172a;
+  color: white;
+}
+
+.section-gray {
+  background: #f8fafc;
+}

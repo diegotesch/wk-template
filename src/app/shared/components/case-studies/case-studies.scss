@@ -10,7 +10,13 @@
   margin-bottom: 24px;
 }
 
-.case h3 {
+.case-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.case h4 {
   color: var(--secondary);
-  margin-top: 12px;
+  margin-bottom: 8px;
 }
